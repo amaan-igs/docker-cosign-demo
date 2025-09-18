@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosign Pipeline Sample App</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fb;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      padding: 32px;
+    }
+    h1 {
+      color: #2d6cdf;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #444;
+      margin-top: 32px;
+    }
+    .profile {
+      margin-bottom: 24px;
+    }
+    .contact {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .links a {
+      color: #2d6cdf;
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    .skills {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .purpose {
+      background: #eafbe7;
+      border-left: 4px solid #2d6cdf;
+      padding: 16px;
+      margin-top: 24px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cosign Pipeline Sample Application</h1>
+    <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px; flex-wrap: wrap;">
+      <img src="https://avatars.githubusercontent.com/u/172314900?v=4" alt="Amaan Ul Haq Siddiqui" style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid #2d6cdf; object-fit: cover;">
+      <div>
+        <h2 style="margin-bottom: 4px;">Amaan Ul Haq Siddiqui</h2>
+        <div class="contact">amaanulhaq.s@outlook.com | +92 332 3511572</div>
+        <div class="links">
+          <a href="https://github.com/amaan-igs" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/amaanulhaqsiddiqui" target="_blank">LinkedIn</a>
+          <a href="https://credly.com/amaan-igs" target="_blank">Credly</a>
+        </div>
+      </div>
+    </div>
+    <div class="purpose">
+      <strong>Purpose:</strong> Demonstrate container image signing using <b>Sigstore Cosign</b>, publishing to <b>Harbor CNCF Registry</b>, and deploying on <b>AWS ECS</b> via <b>GitLab CI</b>.
+      <div style="display: flex; gap: 24px; align-items: center; margin-top: 16px; flex-wrap: wrap;">
+        <img src="https://avatars.githubusercontent.com/u/71096353?v=4" alt="Cosign" style="height: 40px;">
+        <img src="https://avatars.githubusercontent.com/u/40275816?s=200&v=4" alt="Harbor" style="height: 40px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS" style="height: 30px;">
+        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/144_Gitlab_logo_logos-512.png" alt="GitLab" style="height: 40px;">
+      </div>
+    </div>
+    <h2>Profile Summary</h2>
+    <p>Cloud Infrastructure and DevOps Engineer with strong experience in automating, scaling, and managing modern cloud-native systems across AWS. Proven track record in designing fault-tolerant, secure, and cost-efficient architectures for startups and enterprise clients. Adept in CI/CD pipelines, infrastructure as code (IaC), containerization, and observability. Passionate about improving system reliability and developer velocity through automation and SRE practices.</p>
+    <h2>Digital Badges</h2>
+    <div class="skills">
+      <b>Cloud Certifications:</b><br>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px;">
+        <img src="./images/AWS-Certified-Cloud-Practitioner.png" alt="AWS Certified Cloud Practitioner" style="height: 60px;" />
+        <img src="./images/AWS-Certified-DevOps-Engineer-Professional.png" alt="AWS Certified DevOps Engineer Professional" style="height: 60px;" />
+        <img src="./images/AWS-Certified-Solutions-Architect-Associate.png" alt="AWS Certified Solutions Architect Associate" style="height: 60px;" />
+      </div>
+      <b>Cloud Accreditations:</b><br>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <img src="./images/AWS-Partner-Sales-Accreditation.png" alt="AWS Partner Sales Accreditation" style="height: 60px;" />
+        <img src="./images/AWS-Well-Architected-Proficient.png" alt="AWS Well Architected Proficient" style="height: 60px;" />
+        <img src="./images/LFS158-Introduction-to-Kubernetes.png" alt="LFS158 Introduction to Kubernetes" style="height: 60px;" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
