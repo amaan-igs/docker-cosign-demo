@@ -10,16 +10,6 @@ This project demonstrates a complete enterprise-grade container security pipelin
 
 ## Architecture
 <img width="2016" height="788" alt="main-WEB-FLOW" src="https://github.com/user-attachments/assets/48417d23-20db-427e-9815-018d38aea8cb" />
-```mermaid
-graph TB
-    A[Source Code] --> B[GitHub Actions / GitLab CI]
-    B --> C[Docker Build & Push]
-    C --> D[Harbor Private Registry]
-    D --> E[Trivy Security Scan]
-    E --> F[SBOM Generation]
-    F --> G[Cosign Image Signing]
-    G --> H[Signed Container Image]
-```
 
 ## Features
 
