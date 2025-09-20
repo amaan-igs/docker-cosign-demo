@@ -9,7 +9,7 @@
 This project demonstrates a complete enterprise-grade container security pipeline implementing **CNCF Project Harbor** as a private OCI-compliant registry with integrated **Trivy vulnerability scanning**, **SBOM generation**, and **container image signing** using **Sigstore Cosign**. The entire workflow is automated through **GitHub Actions** and **GitLab CI/CD** pipelines.
 
 ## Architecture
-
+<img width="2016" height="788" alt="main-WEB-FLOW" src="https://github.com/user-attachments/assets/48417d23-20db-427e-9815-018d38aea8cb" />
 ```mermaid
 graph TB
     A[Source Code] --> B[GitHub Actions / GitLab CI]
