@@ -4,9 +4,25 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '*.html'
+      - 'Dockerfile'
+      - 'images/**'
+      - '.github/workflows/**'
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.MD'
   pull_request:
     branches:
       - main
+    paths:
+      - '*.html'
+      - 'Dockerfile'
+      - 'images/**'
+      - '.github/workflows/**'
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.MD'
 
 env:
   REGISTRY: registry.dev.sudoconsultants.com
